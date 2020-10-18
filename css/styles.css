@@ -284,4 +284,8 @@ h5 {
       width: 100%;
     }
   }
+
+  #features h3 {
+    font-size: 30px !important;
+  }
 }
