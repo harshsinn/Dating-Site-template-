@@ -178,9 +178,10 @@ h3{
   color: #fff;
   background-color: #ff4c68;
   text-align: center;
+  padding: 0 8%;
 }
 #cta h3 {
-  padding: 4% 12% 0;
+  padding: 4% 15% 0;
   font-family: "Montserrat";
   font-weight: 900 !important;
 }
@@ -206,7 +207,7 @@ h3{
 /* pricing section */
 
 #pricing {
-  padding: 60px;
+  padding: 80px;
   text-align: center;
 }
 .pricing-col {
@@ -214,13 +215,24 @@ h3{
 }
 .card h3 {
   font-weight: lighter !important;
-  font-size: 2rem !important;
+  font-size: 1.8rem !important;
 }
 #pricing p {
   color: #8f8f8f;
-  font-size: 20px;
+  font-size: 18px;
 }
-
+h5 {
+  color: #8f8f8f;
+}
+#pricing h2 {
+  font-weight: 900 !important;
+}
+#pricing .row {
+  margin: 0 auto !important;
+}
+.card-body .download-button {
+  color: #555 !important;
+}
 /* media query */
 @media (max-width: 992px) {
 
